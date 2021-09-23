@@ -1,8 +1,8 @@
 version: "3"
 services:
-  sillyGirl:
-    image: gcdd1993/sillyGirl:latest
-    container_name: sillyGirl
+  silly-girl:
+    image: gcdd1993/silly-girl:latest
+    container_name: silly-girl
     restart: unless-stopped
     tty: true
     ports:
