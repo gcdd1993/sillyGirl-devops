@@ -1,0 +1,9 @@
+version: "3"
+services:
+  sillyGirl:
+    image: gcdd1993/sillyGirl:latest
+    container_name: sillyGirl
+    restart: unless-stopped
+    tty: true
+    ports:
+      - 8080:8080

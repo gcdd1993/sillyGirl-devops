@@ -1,0 +1,6 @@
+sudo: required
+language: go
+services:
+  - docker
+script:
+  - bash build_docker.sh
