@@ -3,7 +3,7 @@ set -e
 
 SILLY_GIRL_WORKDIR=/app/sillyGirl
 
-if [[ ! -f "$XDD_WORKDIR/sillyGirl" ]]; then
+if [[ ! -f "$SILLY_GIRL_WORKDIR/sillyGirl" ]]; then
   echo -e "=================== 开始下载傻妞机器人 ==================="
   cd /app
   git clone $REPO_URL
