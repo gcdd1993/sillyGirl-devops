@@ -2,7 +2,6 @@
 set -e
 
 SILLY_GIRL_WORKDIR=/app/sillyGirl
-REPO_URL=/app/sillyGirl
 
 if [[ ! -f "$XDD_WORKDIR/sillyGirl" ]]; then
   echo -e "=================== 开始下载傻妞机器人 ==================="
